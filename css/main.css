@@ -100,3 +100,61 @@ body{
   left: 820px;
   bottom: 480px;
 }
+
+#sol{
+  width: 100px;
+	height: 100px;
+	background: #FEFDD8;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 200px;
+  bottom: 580px;
+}
+
+#corazon{
+  position: relative;
+  left: 565px;
+  bottom: 420px;
+  width: 100px;
+  height: 250px;
+  float: left;
+}
+
+#corazon:before,
+#corazon:after{
+    position: absolute;
+    content: "";
+    left: 95px;
+    top: 2px;
+    width: 20px;
+    height: 30px;
+    background: #8B4B59;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 50%;
+       -moz-transform-origin: 0 50%;
+        -ms-transform-origin: 0 50%;
+         -o-transform-origin: 0 50%;
+            transform-origin: 0 50%;
+}
+#corazon:after{
+    left: 99.5px;
+    top: -5px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 50% 50%;
+       -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+         -o-transform-origin: 50% 50%;
+            transform-origin :50% 50%;
+}
