@@ -158,3 +158,70 @@ body{
          -o-transform-origin: 50% 50%;
             transform-origin :50% 50%;
 }
+
+/* Opcionales */
+
+#tronco {
+  width: 30px;
+  height: 100px;
+  background: #795E55;
+  position: relative;
+  left: 350px;
+  bottom: 400px;
+}
+
+#arbol{
+  position: relative;
+  left: 320px;
+  bottom: 570px;
+}
+
+#arbol{
+    background: green;
+    width: 95px;
+    height: 95px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20deg);
+}
+
+#arbol:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 95px;
+    width: 95px;
+    background: green;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#manzana{
+  width: 12px;
+	height: 12px;
+	background: #BD0303;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 375px;
+  bottom: 640px;
+}
+
+#manzana1{
+  width: 12px;
+	height: 12px;
+	background: #BD0303;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 325px;
+  bottom: 620px;
+}
