@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #C1CEDA;
 }
 
 .contenedor{
@@ -9,7 +10,7 @@ body{
 }
 
 #pasto{
-  background-color: green;
+  background-color: #6C8C7D;
   width: 900px;
   height: 60px;
   position: relative;
@@ -18,7 +19,7 @@ body{
 }
 
 #techo{
-	border-bottom: 100px solid red;
+	border-bottom: 100px solid #B8A4B0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0; /* alto */
@@ -26,4 +27,22 @@ body{
   position: relative;
   left: 600px;
   bottom: -80px;
+}
+
+#cuerpo{
+  width: 300px; /* ancho */
+	height: 180px; /* alto */
+	background: #BFB6B8;
+  position: relative;
+  left: 600px;
+  bottom: -80px;
+}
+
+#puerta{
+  width: 80px;
+	height: 130px;
+	background: #4B2D42;
+  position: relative;
+  left: 630px;
+  bottom: 50px;
 }
