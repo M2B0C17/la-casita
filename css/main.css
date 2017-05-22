@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor{
+  margin: 0;
+  padding: 0;
+}
+
+#pasto{
+  background-color: green;
+  width: 900px;
+  height: 60px;
+  position: relative;
+  top: 400px;
+  left: 130px;
+}
+
+#techo{
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0; /* alto */
+	width: 200px; /* ancho */
+  position: relative;
+  left: 600px;
+  bottom: -80px;
+}
