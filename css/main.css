@@ -46,3 +46,57 @@ body{
   left: 630px;
   bottom: 50px;
 }
+
+#ventana{
+    width: 70px;
+  	height: 70px;
+  	background: #D9D8D7;
+    position: relative;
+    left: 770px;
+    top: -165px;
+}
+
+#chimenea{
+  width: 30px;
+	height: 50px;
+	background: #BFB6B8;
+  position: relative;
+  left: 800px;
+  bottom: 380px;
+}
+
+#humo1{
+  width: 15px;
+	height: 15px;
+	background: #ADADB0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 855px;
+  bottom: 472px;
+}
+
+#humo2{
+  width: 15px;
+	height: 15px;
+	background: #A1A1A3;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 840px;
+  bottom: 473px;
+}
+
+#humo3{
+  width: 15px;
+	height: 15px;
+	background: #878789;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  position: relative;
+  left: 820px;
+  bottom: 480px;
+}
